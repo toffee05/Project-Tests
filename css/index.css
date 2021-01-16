@@ -72,7 +72,7 @@ a {
 	border-right: 3px solid #4B4B4B;
 }
 
-.sidebar a, h1{
+.sidebar a {
 	padding: 0.8vw 2vw;
 	display: block;
 	text-align: center;
@@ -84,10 +84,6 @@ a {
 }
 
 .sidebar a:hover:not(.active) {
-	color: white;
-}
-
-.sidebar h1:hover {
 	color: white;
 }
 
@@ -104,13 +100,6 @@ a {
 	display: block;
 	max-height: 100px;
 	height: 100%;
-}
-
-#dropbtn {
-	display: block;
-	font-weight: bold;
-	margin: -0.2vw 0px;
-	letter-spacing: 1px;
 }
 
 .sidebar .dropdown .dropdown-content {
