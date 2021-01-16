@@ -335,11 +335,11 @@ aside {
 	margin: 40px;
 	text-align: justify;
 	font-family: 'nowregular';
-	font-size: calc(12px + .5vw);
+	font-size: calc(6px + .8vw);
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#abContent {
 		height: 440px;
 		width: 100%;
@@ -439,7 +439,6 @@ aside {
 
 #drivToHawImg {
 	float: left;
-	max-height: 220px;
 	height: 220px;
 }
 
@@ -491,7 +490,7 @@ aside {
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#dthBreak {
 		display: block;
 	}
@@ -499,15 +498,17 @@ aside {
 	#drivToHawImg {
 		display: block;
 		width: 50vw;
+		height: auto;
+		max-height: auto;
 	}
 	
 	#dthImgSrc {
 		width: 50vw;
-		top: 180px;
+		bottom: 220px;
 	}
 	
 	#drivToHawSec {
-		height: 440px;
+		height: auto;
 	}
 	
 	#dthContent p {
@@ -524,8 +525,6 @@ aside {
 }
 
 #goingNatImg {
-	float: right;
-	max-height: 220px;
 	height: 220px;
 }
 
@@ -577,23 +576,24 @@ aside {
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#gnBreak {
 		display: block;
 	}
 	
 	#goingNatImg {
-		display: inline-block;
+		display: block;
 		width: 50vw;
+		height: auto;
 	}
 	
 	#gnImgSrc {
 		width: 50vw;
-		top: 220px;
+		bottom: 0;
 	}
 	
 	#goingNatSec {
-		height: 440px;
+		height: auto;
 	}
 	
 	#gnContent p {
@@ -611,7 +611,6 @@ aside {
 
 #soPolImg {
 	float: left;
-	max-height: 220px;
 	height: 220px;
 }
 
@@ -663,7 +662,7 @@ aside {
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#spBreak {
 		display: block;
 	}
@@ -671,15 +670,16 @@ aside {
 	#soPolImg {
 		display: block;
 		width: 50vw;
+		height: auto;
 	}
 	
 	#spImgSrc {
 		width: 50vw;
-		top: 180px;
+		bottom: 220px;
 	}
 	
 	#soPolSec {
-		height: 440px;
+		height: auto;
 	}
 	
 	#spContent p {
@@ -696,8 +696,6 @@ aside {
 }
 
 #hapCamImg {
-	float: right;
-	max-height: 220px;
 	height: 220px;
 }
 
@@ -749,23 +747,24 @@ aside {
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#hcBreak {
 		display: block;
 	}
 	
 	#hapCamImg {
-		display: inline-block;
+		display: block;
 		width: 50vw;
+		height: auto;
 	}
 	
 	#hcImgSrc {
 		width: 50vw;
-		top: 220px;
+		bottom: 0;
 	}
 	
 	#hapCamSec {
-		height: 440px;
+		height: auto;
 	}
 	
 	#hcContent p {
@@ -783,7 +782,6 @@ aside {
 
 #honeyweedImg {
 	float: left;
-	max-height: 220px;
 	height: 220px;
 }
 
@@ -835,7 +833,7 @@ aside {
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#hwBreak {
 		display: block;
 	}
@@ -843,15 +841,16 @@ aside {
 	#honeyweedImg {
 		display: block;
 		width: 50vw;
+		height: auto;
 	}
 	
 	#hwImgSrc {
 		width: 50vw;
-		top: 180px;
+		bottom: 220px;
 	}
 	
 	#honeyweedSec {
-		height: 440px;
+		height: auto;
 	}
 	
 	#hwContent p {
@@ -868,8 +867,6 @@ aside {
 }
 
 #avenueGImg {
-	float: right;
-	max-height: 220px;
 	height: 220px;
 }
 
@@ -921,23 +918,24 @@ aside {
 	color: white;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 838px) {
 	#agBreak {
 		display: block;
 	}
 	
 	#avenueGImg {
-		display: inline-block;
+		display: block;
 		width: 50vw;
+		height: auto;
 	}
 	
 	#agImgSrc {
 		width: 50vw;
-		top: 220px;
+		bottom: 0;
 	}
 	
 	#avenueGSec {
-		height: 440px;
+		height: auto;
 	}
 	
 	#agContent p {

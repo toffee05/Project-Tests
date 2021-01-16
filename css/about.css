@@ -1,7 +1,9 @@
 @import "index.css";
 
-#abtPageCover {
-	text-align: center;
+#abtPageCover img {
+	display: block;
+	margin: auto;
+	width: 800px;
 }
 
 #header {
@@ -27,40 +29,4 @@ span {
 
 #footer {
 	border-top: 3px solid #4B4B4B;
-}
-
-.container {
-	position: relative;
-	margin: auto;
-	width: 700px;
-	height: 500px;
-	border: 1px solid white;
-}
-
-ul {
-	position: relative;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-li {
-	position: absolute;
-	left: -700px;
-}
-
-li.first {
-	animation: cycle 25s linear infinite;
-}
-
-li.second {
-	animation: cycletwo 25s linear infinite;
-}
-
-li.third {
-	animation: cyclethree 25s linear infinite;
-}
-
-@keyframes cycle {
-	0% { left: 0; transform: translateX(0px); opacity}
 }
