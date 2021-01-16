@@ -16,7 +16,7 @@
 		</header>
 		<nav class="sidebar" id="mySidebar">
 			<a class="active" id="home" href="index.html">Home</a>
-			<a href="#aboutSec">About</a>
+			<a href="htdocs/about.html">About</a>
 			<section class="dropdown">
 				<h1 id="dropbtn">Albums</h1>
 				<div class="dropdown-content">
@@ -34,13 +34,12 @@
 		<button class="openbtnSprite" id="openbtnSprite" onclick="toggleSprite()">&#9661 </button>
 		<aside id="sprite">
 			<div class="socMedSprite" id="spriteSubCont">
-				<a href="https://www.youtube.com/channel/UCs4nrDXLuNz6NuCDKUS8FIQ" target="_blank"><div class="youtubeCont"><div class="youtube"></div></div></a>
-				<a href="https://twitter.com/SummerSaltATX" target="_blank"><div><div class="twitter"></div></div></a>
-				<a href="https://open.spotify.com/artist/3MATPJ9tYbcMhw5VOZrRU6" target="_blank"><div><div class="spotify"></div></div></a>
+				<a href="https://www.youtube.com/channel/UCs4nrDXLuNz6NuCDKUS8FIQ" target="_blank" class="ytLink"><div class="youtubeCont"><div class="youtube"></div></div></a>
+				<a href="https://twitter.com/SummerSaltATX" target="_blank" class="twtLink"><div class="twitterCont"><div class="twitter"></div></div></a>
+				<a href="https://open.spotify.com/artist/3MATPJ9tYbcMhw5VOZrRU6" target="_blank" class="spLink"><div class="spotifyCont"><div class="spotify"></div></div></a>
 			</div>
 		</aside>
-		
-		<!-- Handpicked songs from each album as background music -->
+
 		<audio class="bgmusic" id="bgmusic" controls autoplay="autoplay">
 				<source src="mmfiles/bgmusic/oneLastTime.mp3" type="audio/mpeg">
 				<source src="mmfiles/bgmusic/oneLastTime.ogg" tpye="audio/ogg">
@@ -57,7 +56,7 @@
 					<p id="abImgSrc">(Click to Direct to Source)</p>
 				</a>
 				<br id="abBreak">
-				<a href="#about">
+				<a href="htdocs/about.html">
 					<div id="abContent">
 						<p>
 							Based in Austin, TX, Summer Salt blends vibrant yet breezy vocal harmony and colorful elements of 1960s pop, Bossa Nova

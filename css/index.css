@@ -67,7 +67,7 @@ a {
 	left: 0;
 	background-color: #1f2024;
 	overflow: hidden;
-	transition: 0.5s;
+	transition: width 0.5s;
 	padding-top: 60px;
 	border-right: 3px solid #4B4B4B;
 }
@@ -216,7 +216,7 @@ aside {
 	width: 70px;
 	height: 55px;
 	padding: 2.5px;
-	transition: background-color .1s;
+	transition: background-color .07s;
 }
 
 .socMedSprite > a > .youtubeCont {
@@ -240,6 +240,14 @@ aside {
 .spotify {
     width: 50px; height: 50px;
     background-position: -0 -86px;
+}
+
+.socMedSprite > a:active > div {
+	background-color: #1F2024;
+}
+
+.socMedSprite > a:active > div > div {
+	background-image: url('../images/css_sprites_active.png');
 }
 
 .bgmusic {

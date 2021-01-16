@@ -1,0 +1,66 @@
+@import "index.css";
+
+#abtPageCover {
+	text-align: center;
+}
+
+#header {
+	border-bottom: 3px solid #4B4B4B;
+}
+
+#abtPageContent {
+	display: block;
+	margin: auto;
+	text-align: justify;
+	font-family: 'nowregular';
+	color: white;
+	font-size: calc(13px + .3vw);
+	width: 50%;
+}
+
+span {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: calc(10px + .3vw);
+}
+
+#footer {
+	border-top: 3px solid #4B4B4B;
+}
+
+.container {
+	position: relative;
+	margin: auto;
+	width: 700px;
+	height: 500px;
+	border: 1px solid white;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	position: absolute;
+	left: -700px;
+}
+
+li.first {
+	animation: cycle 25s linear infinite;
+}
+
+li.second {
+	animation: cycletwo 25s linear infinite;
+}
+
+li.third {
+	animation: cyclethree 25s linear infinite;
+}
+
+@keyframes cycle {
+	0% { left: 0; transform: translateX(0px); opacity}
+}
