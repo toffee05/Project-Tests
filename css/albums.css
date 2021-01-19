@@ -73,7 +73,7 @@
 	margin-right: 8px;
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 838px) {
 	#albumCover {
 		width: 48vw;
 	}
@@ -94,7 +94,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 700px) {
 	#titleBreak {
 		display: block;
 	}
