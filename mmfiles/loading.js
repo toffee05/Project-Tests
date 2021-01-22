@@ -3,6 +3,6 @@ function hide_loader() {
 
   setTimeout(function() {
     loader.className += ' hidden';
-  }, 1000)
+  }, 500)
   
 }
