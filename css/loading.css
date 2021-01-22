@@ -1,0 +1,40 @@
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background-color: #1f2024;
+	
+}
+
+.animation {
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+	border-right: 8px dotted white;
+	animation: animation 2s infinite linear;
+}
+
+@keyframes animation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.loading.hidden {
+	animation: fadeOut 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}

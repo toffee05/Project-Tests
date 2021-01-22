@@ -1,0 +1,1 @@
+Loading screen was added to allow at least one spotify embed to load first (the first one).

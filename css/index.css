@@ -334,10 +334,8 @@ aside {
 		width: 100%;
 	}
 
-	
 	#aboutImg {
 		display: block;
-		min-width: 500px;
 		width: 100%;
 		max-height: auto;
 		min-height: 100vw;

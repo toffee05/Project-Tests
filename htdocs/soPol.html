@@ -7,10 +7,17 @@
 		<meta name="keywords" content="Summer Salt, Alternative, Indie, Avenue G">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="../css/albums.css" type="text/css" rel="stylesheet">
+		<link href="../css/loading.css" type="text/css" rel="stylesheet">
 		<script src="../mmfiles/navbar.js"></script>
 		<script src="../mmfiles/sprite.js"></script>
 	</head>
 	<body id="main">
+		<div class="loading">
+			<div class="animation"></div>
+		</div>
+		
+		<script src="../mmfiles/loading.js"></script>
+		
 		<header id="header">
 			SUMMER SALT |
 		</header>
@@ -67,7 +74,7 @@
 		
 		<section id="song">
 			<p id="title"><span id="songNum">1.</span> Candy Wrappers</p>
-			<iframe id="preview" src="https://open.spotify.com/embed/track/2WrzwxqDxBWcWYkk9DAJ9j" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<iframe id="preview" onload="hide_loader()" src="https://open.spotify.com/embed/track/2WrzwxqDxBWcWYkk9DAJ9j" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 			<p id="duration">3:14</p>
 		</section>
 		<hr class="separator">
